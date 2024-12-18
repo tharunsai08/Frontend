@@ -1,0 +1,50 @@
+Container for the main dashboard content
+.dashboard-container {
+    margin-top: 20px;
+    text-align: left;
+}
+
+/* Container for the header and search bar */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Style for the header text */
+.header {
+    color: #002060;
+    font-weight: bold;
+}
+
+.css-4e79ig-MuiDataGrid-root .MuiDataGrid-container--top [role=row] {
+    background-color: #d1c9c9 !important;
+}
+/* Style for the search bar */
+.search-bar {
+    margin-left: 16px;
+}
+
+/* Container for the loading spinner */
+.loading-container {
+    margin-top: 40px;
+}
+
+/* Container for the loader */
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+/* Style for the DataGrid Paper */
+.data-grid-paper {
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* Style for the DataGrid */
+.data-grid {
+    height: 100%;
+}

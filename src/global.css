@@ -1,0 +1,30 @@
+.coin-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.coin {
+    position: absolute;
+    font-size: 2rem; /* Adjust this size as needed */
+    color: gold; /* Adjust the color as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+    animation: fall linear;
+}
+
+@keyframes fall {
+    from {
+        transform: translateY(-100px);
+    }
+    to {
+        transform: translateY(calc(100vh + 100px));
+    }
+}

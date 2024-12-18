@@ -1,0 +1,32 @@
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-icon {
+    margin-right: 10px;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-image {
+    width: 45px; /* Adjust the width as needed */
+    height: auto;
+    border-radius: 30px;
+    margin-top: 3px;
+}
+
+.logo-title {
+    font-size: 24px;
+    margin: 0;
+}
+
+.logo-tagline {
+    font-size: 14px;
+    margin: 0;
+    color: #fcfcfc;
+}

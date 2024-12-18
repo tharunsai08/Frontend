@@ -1,0 +1,591 @@
+{
+  "Quantitative": {
+    "marketcapitalization": {
+      "options": [
+        "All",
+        "Above $10B",
+        "$1B to $10B",
+        "$500M to $1B",
+        "$250M to $500M",
+        "$100M to $250M",
+        "Below $100M"
+      ],
+      "label": "Market Capitalization",
+      "description": "Market capitalization in the crypto market is the total value of a cryptocurrency."
+    },
+    "volume": {
+      "options": [
+        "All",
+        "Above 500M",
+        "100M to 500M",
+        "50M to 100M",
+        "10M to 50M",
+        "1M to 10M",
+        "Below 1M"
+      ],
+      "label": "Volume",
+      "description": "volume is the total amount of a cryptocurrency traded over a specific period, usually 24 hours, indicating market activity and liquidity"
+    },
+    "return_field": {
+      "options": [
+        "All",
+        "Above 5%",
+        "2% to 5%",
+        "0% to 2%",
+        "-2% to 0%",
+        "-5% to -2%",
+        "Below -5%"
+      ],
+      "label": "Return",
+      "description": "Return measures the gain or loss on an investment over time, indicating profitability."
+    },
+    "marketcapdominance": {
+      "options": [
+        "All",
+        "Above 5%",
+        "1% to 5%",
+        "0.5% to 1%",
+        "0% to 0.5%",
+        "Equals to 0%"
+      ],
+      "label": "Market Cap Dominance",
+      "description": "Market cap dominance measures a specific cryptocurrency's market share relative to the total market capitalization of all cryptocurrencies."
+    },
+    "fifty_two_week_high": {
+      "options": [
+        "All",
+        "Equals to Current Price",
+        "10% Above Current Price",
+        "20% Above Current Price",
+        "30% Above Current Price",
+        "40% Above Current Price",
+        "50% Above Current Price",
+        "75% Above Current Price",
+        "100% Above Current Price"
+      ],
+      "label": "52 Week High",
+      "description": "52-week high is the highest price a cryptocurrency has reached over the past one year and comparing to the current price, indicating peak performance. This metric helps assess the price trend and potential resistance levels."
+    },
+    "fifty_two_week_low": {
+      "options": [
+        "All",
+        "Equals to Current Price",
+        "10% Below Current Price",
+        "20% Below Current Price",
+        "30% Below Current Price",
+        "40% Below Current Price",
+        "50% Below Current Price",
+        "75% Below Current Price",
+        "100% Below Current Price"
+      ],
+      "label": "52 Week Low",
+      "description": "52-week low is the lowest price at which a cryptocurrency has traded over the past one year and comparing to the current price, indicating its weakest performance during that period. This metric helps assess the price trend and potential support levels."
+    },
+    "one_month_high": {
+      "options": [
+        "All",
+        "Equals to Current Price",
+        "10% Above Current Price",
+        "20% Above Current Price",
+        "30% Above Current Price",
+        "40% Above Current Price",
+        "50% Above Current Price",
+        "75% Above Current Price",
+        "100% Above Current Price"
+      ],
+      "label": "1 Month High",
+      "description": "1 Month High is the highest price a cryptocurrency has reached over the past one month and comparing to the current price, indicating peak performance. This metric helps assess the price trend and potential resistance levels."
+    },
+    "one_month_low": {
+      "options": [
+        "All",
+        "Equals to Current Price",
+        "10% Below Current Price",
+        "20% Below Current Price",
+        "30% Below Current Price",
+        "40% Below Current Price",
+        "50% Below Current Price",
+        "75% Below Current Price",
+        "100% Below Current Price"
+      ],
+      "label": "1 Month Low",
+      "description": "1 Month Low is the lowset price a cryptocurrency has reached over the past one month and comparing to the current price, indicating weakest performance. This metric helps assess the price trend and potential support levels."
+    },
+    "two_thousand_seventeen_to_date": {
+      "options": [
+        "All",
+        "Above 100%",
+        "50% to 100%",
+        "10% to 50%",
+        "0% to 10%",
+        "Below 0%"
+      ],
+      "label": "2017 to Date",
+      "description": "'2017 to Date' refers to the cumulative return of a price from the year 2017 up to the current date."
+    }
+  },
+  "Technical": {
+    "mtd": {
+      "options": [
+        "All",
+        "Above 100%",
+        "10% to 25%",
+        "5% to 10%",
+        "0% to 5%",
+        "-5% to 0%",
+        "-10% to -5%",
+        "-25% to -10%",
+        "Below -25%"
+      ],
+      "label": "MTD (Month to Date)",
+      "description": "'Month to Date (MTD)' refers to the return from the beginning of the current month up to the present date."
+    },
+    "ytd": {
+      "options": [
+        "All",
+        "Above 100%",
+        "50% to 100%",
+        "25% to 50%",
+        "0% to 25%",
+        "-25% to 0%",
+        "-50% to -25%",
+        "-100% to -50%",
+        "Below -100%"
+      ],
+      "label": "YTD (Year to Date)",
+      "description": "'Year to Date (YTD)' refers to the return from the beginning of the current year up to the present date."
+    },
+    "rsi_value": {
+      "options": [
+        "All",
+        "Above 80",
+        "70 to 80",
+        "60 to 70",
+        "50 to 60",
+        "40 to 50",
+        "30 to 40",
+        "20 to 30",
+        "Below 20"
+      ],
+      "label": "RSI Value",
+      "description": "It is a momentum oscillator that measures the speed and change of price movements of an asset. The RSI provides a numerical value that ranges from 0 to 100, helping traders and investors identify potential overbought and oversold conditions in the market."
+    },
+    "one_year": {
+      "options": [
+        "All",
+        "Above 100%",
+        "50% to 100%",
+        "25% to 50%",
+        "0% to 25%",
+        "-25% to 0%",
+        "-50% to -25%",
+        "-100% to -50%",
+        "Below -100%"
+      ],
+      "label": "1 Year",
+      "description": "The 1-Year return is calculated based on the performance of a coin over last one year"
+    },
+    "ma9_ma20_value": {
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "label": "MA9 Above MA20",
+      "description": "Indicates whether the 9-day moving average (MA9) is currently above the 20-day moving average (MA20), 'Yes' indicating a upward trend, 'No'  indicating a downward trend"
+    },
+    "ma20_ma50_value": {
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "label": "MA20 Above MA50",
+      "description": "Indicates whether the 20-day moving average (MA20) is currently above the 50-day moving average (MA50), 'Yes' indicating a upward trend, 'No'  indicating a downward trend"
+    },
+    "ma50_ma200_value": {
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "label": "MA50 Above MA200",
+      "description": "Indicates whether the 50-day moving average (MA50) is currently above the 200-day moving average (MA200), 'Yes' indicating a upward trend, 'No'  indicating a downward trend"
+    },
+    "macd_value": {
+      "options": [
+        "All",
+        "Above 1",
+        "0.5 to 1",
+        "0 to 0.5",
+        "-0.5 to 0",
+        "-1 to -0.5",
+        "Below -1"
+      ],
+      "label": "MACD Value",
+      "description": "MACD (Moving Average Convergence Divergence) value measures the difference between MACD Line and Signal Line, indicating strength of the ongoing trend."
+    },
+    "atr_value": {
+      "options": [
+        "All",
+        "Above 100",
+        "10 to 100",
+        "1 to 10",
+        "0.1 to 1",
+        "0.01 to 0.1",
+        "Below 0.01"
+      ],
+      "label": "ATR Value",
+      "description": "Average True Range (ATR) measures volatility by averaging the true ranges over a specific period ATR=Average of True Ranges over the period (14 days)"
+    },
+    "adx_value": {
+      "options": [
+        "All",
+        "Above 60",
+        "50 to 60",
+        "40 to 50",
+        "30 to 40",
+        "20 to 30",
+        "Below 20"
+      ],
+      "label": "ADX Value",
+      "description": "ADX (Average Directional Index) is a technical indicator that measures the strength of a trend, without specifying the trend direction, over a 14-days period"
+    },
+    "moving_average_rating": {
+      "options": [
+        "All",
+        "Very Bullish",
+        "Bullish",
+        "Neutral",
+        "Bearish",
+        "Very Bearish"
+      ],
+      "label": "Moving Average Rating",
+      "description": "Moving Average Rating (MAR) involves analyzing multiple moving averages to assess a cryptocurrency's trend strength and direction."
+    },
+    "momentum_rating": {
+      "options": [
+        "All",
+        "Very Bullish",
+        "Bullish",
+        "Neutral",
+        "Bearish",
+        "Very Bearish"
+      ],
+      "label": "Momentum Rating",
+      "description": "Momentum Rating measures the speed of price changes, indicating trend strength. A high positive value indicates strong upward momentum, while a high negative value shows strong downward momentum."
+    },
+    "trend_rating": {
+      "options": [
+        "All",
+        "Very Bullish",
+        "Bullish",
+        "Neutral",
+        "Bearish",
+        "Very Bearish"
+      ],
+      "label": "Trend Rating",
+      "description": "Trend Rating in the crypto market assesses the strength and direction of a price trend"
+    },
+    "volume_rating": {
+      "options": [
+        "All",
+        "Very Bullish",
+        "Bullish",
+        "Neutral",
+        "Bearish",
+        "Very Bearish"
+      ],
+      "label": "Volume Rating",
+      "description": ""
+    },
+    "twenty_ma": {
+      "options": [
+        "All",
+        "100% Above Current Price",
+        "75% Above Current Price",
+        "50% Above Current Price",
+        "40% Above Current Price",
+        "30% Above Current Price",
+        "20% Above Current Price",
+        "10% Above Current Price",
+        "Equals to Current Price",
+        "10% Below Current Price",
+        "20% Below Current Price",
+        "30% Below Current Price",
+        "40% Below Current Price",
+        "50% Below Current Price",
+        "75% Below Current Price",
+        "100% Below Current Price"
+      ],
+      "label": "20 MA",
+      "description": "The 20-day Moving Average (20 MA) in crypto calculates the average closing price over the past 20 days and comparing to the current price"
+    },
+    "fifty_ma": {
+      "options": [
+        "All",
+        "100% Above Current Price",
+        "75% Above Current Price",
+        "50% Above Current Price",
+        "40% Above Current Price",
+        "30% Above Current Price",
+        "20% Above Current Price",
+        "10% Above Current Price",
+        "Equals to Current Price",
+        "10% Below Current Price",
+        "20% Below Current Price",
+        "30% Below Current Price",
+        "40% Below Current Price",
+        "50% Below Current Price",
+        "75% Below Current Price",
+        "100% Below Current Price"
+      ],
+      "label": "50 MA",
+      "description": "The 50-day Moving Average (50 MA) in crypto calculates the average closing price over the past 50 days and comparing to the current price"
+    },
+    "hundred_ma": {
+      "options": [
+        "All",
+        "100% Above Current Price",
+        "75% Above Current Price",
+        "50% Above Current Price",
+        "40% Above Current Price",
+        "30% Above Current Price",
+        "20% Above Current Price",
+        "10% Above Current Price",
+        "Equals to Current Price",
+        "10% Below Current Price",
+        "20% Below Current Price",
+        "30% Below Current Price",
+        "40% Below Current Price",
+        "50% Below Current Price",
+        "75% Below Current Price",
+        "100% Below Current Price"
+      ],
+      "label": "100 MA",
+      "description": "The 100-day Moving Average (100 MA) in crypto calculates the average closing price over the past 100 days and comparing to the current price"
+    },
+    "two_hundred_ma": {
+      "options": [
+        "All",
+        "100% Above Current Price",
+        "75% Above Current Price",
+        "50% Above Current Price",
+        "40% Above Current Price",
+        "30% Above Current Price",
+        "20% Above Current Price",
+        "10% Above Current Price",
+        "Equals to Current Price",
+        "10% Below Current Price",
+        "20% Below Current Price",
+        "30% Below Current Price",
+        "40% Below Current Price",
+        "50% Below Current Price",
+        "75% Below Current Price",
+        "100% Below Current Price"
+      ],
+      "label": "200 MA",
+      "description": "The 200-day Moving Average (200 MA) in crypto calculates the average closing price over the past 200 days and comparing to the current price"
+    }
+  },
+  "Risk": {
+    "beta_1y": {
+      "options": [
+        "All",
+        "Above 1.5",
+        "1 to 1.5",
+        "0.5 to 1",
+        "0 to 0.5",
+        "-0.5 to 0",
+        "-1 to -0.5",
+        "-1.5 to -1",
+        "Below -1.5"
+      ],
+      "label": "Beta",
+      "description": "Beta measures a cryptocurrency's volatility relative to the overall market, with a beta greater than 1 indicating higher volatility."
+    },
+    "business_risk_volatility": {
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "label": "Business Risk Volatility",
+      "description": "Level of business risk of a coin and the related volatility in the price of the coin. (1 is less volatile coin and 5 is highly volatile coin)"
+    },
+    "business_risk_inflation": {
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "label": "Business Risk Inflation",
+      "description": "A measure of growing risks for a coin in terms of regulatory, financial, technological and market changes. (1 is low inflation in business risk and 5 is high inflation)"
+    }
+  },
+  "Fundamental": {
+    "category": {
+      "options": [
+        "Stablecoins",
+        "Art",
+        "Internet of Things",
+        "Protocol",
+        "Top Layer 1 (L1)",
+        "Energy",
+        "Account",
+        "Dex",
+        "Technology & Science",
+        "Proof of Work (PoW)",
+        "Finance/Banking",
+        "Animoca Brands Portfolio",
+        "Centralized Exchange (CEX)",
+        "NFT",
+        "Gaming (Gamefi)",
+        "Social Contract Platform",
+        "Pantera Capital Portfolio",
+        "Software",
+        "Token",
+        "Wormhole Assets",
+        "Eth 2.0 Staking",
+        "DWF Labs Portfolio",
+        "Alleged SEC Securities",
+        "Privacy",
+        "Wrapped Tokens",
+        "Interoperability",
+        "Sports",
+        "DeFi",
+        "Exchange Based Tokens",
+        "Smart Contract Platform",
+        "Blockchain Ecosystem",
+        "Business Services",
+        "Storage",
+        "Governance",
+        "Music",
+        "Artificial Intelligence (AI)",
+        "BNB Chain Ecosystem",
+        "Coinbase Venture Portfolio",
+        "Entertainment",
+        "DePIN",
+        "Communication",
+        "Tokenized BTC",
+        "Logistics",
+        "Proof of Stake (PoS)",
+        "Layer 1 (L1)",
+        "NaN",
+        "USD Stablecoins",
+        "Infrastructure",
+        "Cryptocurrency",
+        "Wallets",
+        "Bitcoin Fork",
+        "Payment Solution",
+        "Layer 2 (L2)",
+        "Asset based Tokens",
+        "Zero Knowledge (ZK)"
+      ],
+      "label": "Category",
+      "description": ""
+    },
+    "solution_category": {
+      "options": [
+        "DeFi",
+        "Exchange Based Tokens",
+        "Smart Contract Platform",
+        "Business Services",
+        "Storage",
+        "Governance",
+        "Music",
+        "Artificial Intelligence(AI)",
+        "Entertainment",
+        "DePIN",
+        "Gaming",
+        "NaN",
+        "Insurance",
+        "Infrastructure",
+        "Gaming",
+        "Cryptocurrency",
+        "Wallets",
+        "Privacy",
+        "Banking",
+        "Stablecoins",
+        "Art",
+        "Media & Entertainment",
+        "Energy",
+        "Sports & Entertainment",
+        "Finance",
+        "Finance/Banking",
+        "Meme",
+        "Metaverse",
+        "Privacy",
+        "Utility Token"
+      ],
+      "label": "Solution Category",
+      "description": ""
+    },
+    "engagement": {
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "label": "Engagement",
+      "description": "A comprehensive parameter detailing the overall user engagement of a coin by using various quantitative and qualitative data points. (1 is less engagement. 5 is most user engagement)"
+    },
+    "revenue_scale": {
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "label": "Revenue Scale",
+      "description": "A metric of current revenue level of a company in comparison to major market players. (1 is low revenue scale and 5 is high revenue scale)"
+    },
+    "revenue_growth": {
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "label": "Revenue Growth",
+      "description": "A relative measure of the growth in revenue of a coin with respect to major market players. (1 is low growth in revenue and 5 is great growth in revenue)"
+    },
+    "fees": {
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "label": "Fees",
+      "description": "A relative measure of total fees earned by the coin in comparison to other coins. (1 is low fees earned and 5 is high fees earned by the coin)"
+    },
+    "vc_funding": {
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "label": "VC Funding",
+      "description": "Scale of funding received by a coin from investors. (1 is low overall funding received and 5 is highly funded coin)"
+    },
+    "team": {
+      "options": [
+        "1",
+        "2",
+        "3"
+      ],
+      "label": "Team",
+      "description": "Work experience of the founding team members and their previous accomplishments. (1 is less accomplished and low previous experience and 5 is a highly experienced team in crypto space)"
+    }
+  }
+}

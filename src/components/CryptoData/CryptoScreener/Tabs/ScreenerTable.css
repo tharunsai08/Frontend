@@ -1,0 +1,38 @@
+.headerCell {
+    color: #1390f7;
+    /* background-color: #e4faf1; */
+    font-weight: bold;
+    padding: 4px 8px;
+    font-weight: 600 !important;
+  }
+  
+  .evenRow {
+    background-color: #E4EBFA;
+  }
+  
+  .oddRow {
+    background-color: white; /* or another default color */
+  }
+  
+  .MuiDataGrid-columnHeaderTitle {
+    font-weight: 600 !important;
+  }
+
+  
+
+  /* Override default styling of checkbox selection */
+  .MuiDataGrid-checkboxInput {
+    color: #2196f3; /* Default color of checkbox */
+  }
+
+
+  .MuiDataGrid-cell--withRenderer {
+    border: none !important;
+  }
+  
+  .MuiDataGrid-cell:focus {
+    outline: none !important;
+  }
+  .headerCell{
+    color: #012750;
+  }
